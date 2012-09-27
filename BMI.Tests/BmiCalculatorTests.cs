@@ -1,5 +1,7 @@
-﻿using System;
+﻿using Bmi.Implementations;
+using System;
 using System.Linq;
+using Bmi.Models;
 using Xunit;
 
 namespace Bmi.Tests
@@ -7,12 +9,25 @@ namespace Bmi.Tests
     public class BmiCalculatorTests
     {
         [Fact]
-        public void BasicTest()
+        public void Calculat_Bmi_In_Imperial_Mode()
         {
-            int i = 10;
-            int j = 20;
+            double weight = 190;
+            double height = 72;
 
-            Assert.Equal(30, i + j);
+            var calculator = new BmiCalculator();
+
+            Assert.Equal(25.8, calculator.Calculate(weight, height));
+        }
+
+        [Fact]
+        public void Calculat_Bmi_In_Metric_Mode()
+        {
+            double weight = 85;
+            double height = 1.82;
+
+            var calculator = new BmiCalculator(FormulaType.Metric);
+
+            Assert.Equal(25.7, calculator.Calculate(weight, height));
         }
     }
 }
