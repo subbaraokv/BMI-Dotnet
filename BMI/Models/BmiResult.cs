@@ -10,9 +10,9 @@ namespace Bmi.Models
 
         }
             
-        public BmiResult(double weight, string category)
+        public BmiResult(double bmi, string category)
         {
-            this.Bmi = weight;
+            this.Bmi = bmi;
             this.Category = category;
         }
     }

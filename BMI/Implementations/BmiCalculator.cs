@@ -16,6 +16,11 @@ namespace Bmi.Implementations
 
         }
 
+        public BmiCalculator(FormulaType formulaType) : this(formulaType, new CategoryRetriever())
+        {
+            this.formulaType = formulaType;
+        }
+
         public BmiCalculator(FormulaType formulaType, CategoryRetriever categoryRetriever)
         {
             this.categoryRetriever = categoryRetriever;
