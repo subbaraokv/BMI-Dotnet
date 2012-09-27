@@ -1,11 +1,18 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BMI", "BMI\BMI.csproj", "{403E9680-1041-48D5-BB1A-506312CCFCA5}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bmi", "BMI\Bmi.csproj", "{403E9680-1041-48D5-BB1A-506312CCFCA5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BMI.Tests", "BMI.Tests\BMI.Tests.csproj", "{91E1B048-5204-4AB8-9BB7-492979F51D0B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bmi.Tests", "BMI.Tests\Bmi.Tests.csproj", "{91E1B048-5204-4AB8-9BB7-492979F51D0B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BMI.Sample", "BMI.Sample\BMI.Sample.csproj", "{7670E5EF-2E2C-4250-853D-62644800F8DD}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bmi.Sample", "BMI.Sample\Bmi.Sample.csproj", "{7670E5EF-2E2C-4250-853D-62644800F8DD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{1C67B84D-FAC7-48D5-BC7B-C5C82E4CFF10}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
