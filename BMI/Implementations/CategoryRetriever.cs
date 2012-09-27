@@ -18,7 +18,7 @@ namespace Bmi.Implementations
             {
                 return WeightCategory.UnderWeight;
             }
-            else if (bmi >= 28.5 && bmi <= 24.9)
+            else if (bmi >= 18.5 && bmi <= 24.9)
             {
                 return WeightCategory.Normal;
             }
