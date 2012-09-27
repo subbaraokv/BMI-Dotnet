@@ -40,9 +40,14 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Constants.cs" />
+    <Compile Include="Extensions\EnumExtensions.cs" />
     <Compile Include="Implementations\BmiCalculator.cs" />
+    <Compile Include="Implementations\CategoryRetriever.cs" />
+    <Compile Include="Models\BmiResult.cs" />
     <Compile Include="Interfaces\IBmiCalculator.cs" />
     <Compile Include="Models\FormulaType.cs" />
+    <Compile Include="Models\StringValueAttribute.cs" />
+    <Compile Include="Models\WeightCategory.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup />
